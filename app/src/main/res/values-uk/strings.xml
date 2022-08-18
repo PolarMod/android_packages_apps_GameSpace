@@ -80,7 +80,6 @@
         <item>Вібрація</item>
         <item>Без змін</item>
     </string-array>
-    <string name="auto_brightness_disabled_summary">Не змінювати яскравість у грі</string>
     <string name="three_screenshot_disabled_summary">Вимкнути функцію стоворення знімку екрану проведенням тремя пальцями у іграх</string>
     <string name="stay_awake_summary">Не вимикати екран у іграх</string>
     <string-array name="game_mode_names">
