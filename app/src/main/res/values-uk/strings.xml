@@ -22,6 +22,7 @@
     <string name="stay_awake_title">Залишати активним</string>
     <string name="lock_gesture_title">Жест блокування</string>
     <string name="auto_brightness_disabled_title">Вимкнути автояскравість</string>
+    <string name="auto_brightness_disabled_summary">Яскравість не буде змінюватися поки ви граєте</string>
     <string name="three_screenshot_disabled_title">Вимкнути свайп для знімка екрану</string>
     <string name="adb_disabled_title">Вимкнути налагодження USB</string>
     <string name="gamespace_menu_opacity_title">Рівень непрозорості меню ігрового режиму</string>
@@ -71,4 +72,21 @@
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Увімкнено</string>
     <string name="state_disabled">Вимкнено</string>
+    <string name="in_game_title">У грі</string>
+    <string name="heads_up_disabled_title">Вимкнути спливаючи повідомлення</string>
+    <string name="heads_up_disabled_summary">Спливаючи повідомлення будть сховані поки ви граєте</string>
+    <string-array name="ringer_mode_entries">
+        <item>Повна тиша</item>
+        <item>Вібрація</item>
+        <item>Без змін</item>
+    </string-array>
+    <string name="auto_brightness_disabled_summary">Не змінювати яскравість у грі</string>
+    <string name="three_screenshot_disabled_summary">Вимкнути функцію стоворення знімку екрану проведенням тремя пальцями у іграх</string>
+    <string name="stay_awake_summary">Не вимикати екран у іграх</string>
+    <string-array name="game_mode_names">
+        <item>Не підтримується</item>
+        <item>Стандартний</item>
+        <item>Швидкодія</item>
+        <item>Економний</item>
+    </string-array>
 </resources>

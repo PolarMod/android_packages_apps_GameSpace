@@ -66,5 +66,6 @@
     <string name="cant_find_angle_pkg">ANGLE недоступен в вашей системе</string>
 
     <string name="per_app_unregister">Удалить %1$s из библиотеки</string>
+    <string name="in_game_title">В игре</string>
 
 </resources>
