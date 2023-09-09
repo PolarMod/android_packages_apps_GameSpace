@@ -80,4 +80,14 @@
     <string name="in_game_calls_auto_reject">Відхилити автоматично</string>
     <string name="in_game_calls_received_number">Отримано дзвінок від %1$s</string>
     <string name="in_game_calls_rejected_number">Пропущений дзвінок від %1$s</string>
+    <!-- Arrays -->
+    <string-array name="per_app_preferred_mode_entries">
+        <item>Звичайний</item>
+        <item>Продуктивний</item>
+        <item>Економний</item>
+    </string-array>
+    <!-- Descriptions -->
+    <string name="auto_brightness_disabled_summary">Заблокувати яскравість під час гри</string>
+    <string name="three_screenshot_disabled_summary">Вимкнути heads-up повідомлення під час гри</string>
+    <string name="heads_up_disabled_title">Вимкнути heads-up</string>
 </resources>
