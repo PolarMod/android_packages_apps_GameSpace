@@ -86,8 +86,21 @@
         <item>Продуктивний</item>
         <item>Економний</item>
     </string-array>
+    <string-array name="ringer_mode_entries">
+        <item>Тиша</item>
+        <item>Вібрація</item>
+        <item>Звичайний</item>
+    </string-array>
+    <string-array name="game_mode_names">
+        <item>Не підтримується</item>
+        <item>Звичайний</item>
+        <item>Продуктивний</item>
+        <item>Економний</item>
+    </string-array>
     <!-- Descriptions -->
     <string name="auto_brightness_disabled_summary">Заблокувати яскравість під час гри</string>
-    <string name="three_screenshot_disabled_summary">Вимкнути heads-up повідомлення під час гри</string>
+    <string name="three_screenshot_disabled_summary">Вимкнути створення знімка екрана проведенням трьома пальцями</string>
     <string name="heads_up_disabled_title">Вимкнути heads-up</string>
+    <string name="heads_up_disabled_summary">Вимкнути heads-up повідомлення під час гри</string>
+    <string name="stay_awake_summary">Не вимикати екран під час гри</string>
 </resources>
