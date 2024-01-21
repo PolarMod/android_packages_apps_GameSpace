@@ -219,7 +219,7 @@ class GameBarService : Hilt_GameBarService() {
         menuSwitcherButton()
         panelButton()
         screenshotButton()
-        recorderButton()
+        //recorderButton()
     }
 
     private fun updateBackground() {
