@@ -36,7 +36,6 @@ import androidx.core.view.isVisible
 import androidx.core.view.marginStart
 import androidx.core.view.updateMargins
 import androidx.core.view.updatePadding
-import com.android.systemui.screenrecord.IRecordingCallback
 import dagger.hilt.android.AndroidEntryPoint
 import io.chaldeaprjkt.gamespace.R
 import io.chaldeaprjkt.gamespace.data.AppSettings
@@ -219,7 +218,6 @@ class GameBarService : Hilt_GameBarService() {
         menuSwitcherButton()
         panelButton()
         screenshotButton()
-        //recorderButton()
     }
 
     private fun updateBackground() {
@@ -344,37 +342,6 @@ class GameBarService : Hilt_GameBarService() {
         val actionScreenshot = rootBarView.findViewById<ImageButton>(R.id.action_screenshot)
         actionScreenshot.setOnClickListener {
             takeShot()
-        }
-    }
-
-    private fun recorderButton() {
-        val actionRecorder = rootBarView.findViewById<ImageButton>(R.id.action_record)
-        val recorder = screenUtils.recorder ?: let { actionRecorder.isVisible = false; return }
-        recorder.addRecordingCallback(object : IRecordingCallback.Stub() {
-            override fun onRecordingStart() {
-                handler.post {
-                    actionRecorder.isSelected = true
-                }
-            }
-
-            override fun onRecordingEnd() {
-                handler.post {
-                    actionRecorder.isSelected = false
-                }
-            }
-        })
-        actionRecorder.setOnClickListener {
-            if (recorder.isStarting) {
-                return@setOnClickListener
-            }
-
-            if (!recorder.isRecording) {
-                recorder.startRecording()
-            } else {
-                recorder.stopRecording()
-            }
-
-            barExpanded = false
         }
     }
 
